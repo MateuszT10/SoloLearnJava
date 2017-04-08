@@ -6,6 +6,6 @@ public class Main {
 	// write your code here
         int i;
         String string;
-
+        System.out.print("Siema ziomeczku");
     }
 }
