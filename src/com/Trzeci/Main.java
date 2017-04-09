@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Main{
     public static void main(String[] args){
-        System.out.println("Siemka napisz teraz cos :)");
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Napisales " + scan.nextLine());
+
+        int[] arr = {1,2,3,4,5};
+        System.out.println("Siemka " + arr[2]);
     }
 }
