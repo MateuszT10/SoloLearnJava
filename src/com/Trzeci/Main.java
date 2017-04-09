@@ -3,12 +3,19 @@ package com.Trzeci;
 import java.util.Scanner;
 
 public class Main{
-    public static void main(String[] args){
+    private int wiek;
+    private String color;
+        public static void main(String[] args){
+            int[] arr = {1,2,3,4,5};
+                System.out.println("arr[2] " + arr[2]);
+                System.out.println("Wielkosc tablicy " + arr.length);
+            int multi[][] = {{1,2,3},{4,5,6}};
+            System.out.println("multi[1][1]) = " + multi[1][1]);
 
-        int[] arr = {1,2,3,4,5};
-            System.out.println("arr[2] " + arr[2]);
-            System.out.println("Wielkosc tablicy " + arr.length);
-        int multi[][] = {{1,2,3},{4,5,6}};
-        System.out.println("multi[1][1]) = " + multi[1][1]);
-    }
+            Main obiekt = new Main();
+            obiekt.wiek = 23;
+            obiekt.color = "Czerwony";
+            System.out.println(obiekt.wiek);
+            System.out.println(obiekt.color);
+        }
 }
