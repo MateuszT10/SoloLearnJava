@@ -7,5 +7,6 @@ public class Main{
 
         int[] arr = {1,2,3,4,5};
         System.out.println("Siemka " + arr[2]);
+        System.out.println("Wielkosc tablicy " + arr.length);
     }
 }
