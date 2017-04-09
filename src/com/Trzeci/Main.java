@@ -1,5 +1,5 @@
 package com.Trzeci;
-
+import samples.Przykladowa;
 import java.util.Scanner;
 
 public class Main{
@@ -18,7 +18,10 @@ public class Main{
     public static void main(String[] args){
         Main a = new Main();
         Main b = new Main(24);
+        Przykladowa p = new Przykladowa();
+        p.setWiek(26);
         System.out.println(a.getWiek());
+        System.out.println(p.getWiek());
         System.out.println(b.getWiek());
         System.out.println("Liczba obiektow to " +  LICZNIK);
     }
