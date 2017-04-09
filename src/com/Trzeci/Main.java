@@ -13,9 +13,13 @@ public class Main{
             System.out.println("multi[1][1]) = " + multi[1][1]);
 
             Main obiekt = new Main();
-            obiekt.wiek = 23;
-            obiekt.color = "Czerwony";
-            System.out.println(obiekt.wiek);
-            System.out.println(obiekt.color);
+             //gettery i settery
+
         }
+    public int getWiek(){
+        return wiek;
+    }
+    public void setWiek(int wiek){
+        this.wiek = wiek;
+    }
 }
