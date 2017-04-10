@@ -14,5 +14,27 @@ public class Program {
         krowa.sound();
         Cat kotek = new Cat();
         kotek.sound();
+
+        Program p = new Program();
+        p.max(5,10);
+        p.max(5.4,10.6);
+
+    }
+
+    int max(int a, int b) {
+        if(a > b) {
+            return a;
+        }
+        else {
+            return b;
+        }
+    }
+    double max(double a, double b) {
+        if(a > b) {
+            return a;
+        }
+        else {
+            return b;
+        }
     }
 }
