@@ -1,7 +1,7 @@
 package com.Trzeci;
 
 /**
- * Created by Mateusz on 2017-04-10.Git repository
+ * Created by Mateusz on 2017-04-10.Git repository bla bla bls
  */
 public class A {
     protected static int x = 1;
